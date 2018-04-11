@@ -11,6 +11,7 @@ export class ApplozicChat extends Common {
         let user = new com.applozic.mobicomkit.api.account.user.User();
         user.setUserId(alUser.userId);
         user.setPassword(alUser.password);
+        user.setEmail(alUser.email);
         user.setApplicationId(alUser.applicationId);
         user.setDisplayName(alUser.displayName);
         user.setContactNumber(alUser.contactNumber);
